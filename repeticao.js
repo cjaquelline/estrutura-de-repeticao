@@ -1,5 +1,6 @@
 
 function basico1() {
+
     for (let n = 1; n <= 10; n++) {
         console.log(" Contagem " + n);
 
@@ -11,35 +12,61 @@ function basico1() {
 
 function basico2() {
 
-   
     let numero = prompt("Digite um numero:");
 
-    for (i = 1; i <= 10; i++) {
-        // console.log(`${numero} x ${i} = ${numero * 1}`);
+    for (let i = 1; i <= 10; i++) {
+
+        alert(i * numero);
 
 
     }
 }
 
-function basico3 () {
+
+function basico3() {
+
+    let n = prompt("Digite um numero:");
+
+    let soma = 0;
+
+    for (let i = 1; i <= n; i++) {
+
+        soma = soma + i;
 
 
+    }
 
-
-
+    alert(soma);
 }
 
+basico3()
 
-function intermediario3 () {
+function intermediario3() {
 
     debugger;
 
-    let n = 100;
-    while (n >= 1) {
-        console.log(n);
-        n++;
+    let n = prompt("Digite um numero:")
+
+    while (let n = 100; n <= 0; n++ ) {
+        alert(n);
+
     }
 
 
-} 
-intermediario3 ()
+}
+
+function intermediario1 () {
+
+    let valor = prompt ("Digite o valor");
+    for (let contador= 2; contador <=50; contador +=2) {
+        alert (contador);
+    }
+
+
+
+}
+
+
+
+
+
